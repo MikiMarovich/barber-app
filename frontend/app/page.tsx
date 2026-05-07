@@ -92,12 +92,12 @@ const handleDateTimeSelect = async (date: string, time: string) => {
               <p className="text-xs text-muted-foreground">Sistema de Citas</p>
             </div>
           </div>
-          <Link
+          {/*<Link
             href="/admin"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             Acceso Barbero
-          </Link>
+          </Link>*/}
         </div>
       </header>
 
