@@ -657,7 +657,7 @@ def get_settings():
             working_hour_end,
             working_days,
             slot_duration,
-            wekkly_schedule
+            weekly_schedule
         FROM barber_settings
         ORDER BY id DESC
         LIMIT 1
